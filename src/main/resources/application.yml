@@ -1,0 +1,18 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 128KB
+      max-request-size: 128KB
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    operationsSorter: method
+  api-docs:
+    path: /api-docs
+
+azure:
+  subscription-key: <your subscription key>
+  cognitive-service-endpoint: https://<your endpoint>.cognitiveservices.azure.com/
+
+
